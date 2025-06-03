@@ -12,7 +12,7 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 11px;
 }
 .dropbtn {
   background-color: rgb(226, 137, 253);
@@ -36,4 +36,4 @@ h1 {
   align-items: center;
 }
 
-
+ 
