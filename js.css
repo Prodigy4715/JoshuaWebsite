@@ -1,5 +1,12 @@
 body {
-    background-color: #e2e2e2;
+    background-color: #ebebeb;
+	background: 
+		  radial-gradient(farthest-side at -33.33% 50%,#0000 52%,rgb(244, 209, 255) 54% 57%,#0000 59%) 0 calc(128px/2),
+		  radial-gradient(farthest-side at 50% 133.33%,#0000 52%,rgb(244, 212, 253),#0000 59%) calc(128px/2) 0,
+		  radial-gradient(farthest-side at 133.33% 50%,#0000 52%,rgb(244, 212, 253),#0000 59%),
+		  radial-gradient(farthest-side at 50% -33.33%,#0000 52%,rgb(244, 212, 253),#0000 59%),
+		  #E4E4ED;
+	background-size: calc(128px/4.667) 128px,128px calc(128px/4.667);
 }
 li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -34,6 +41,15 @@ h1 {
 .header {
   display: flex;
   align-items: center;
+}
+.first {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color: rgb(226, 137, 253);
+  text-align: center;
+  max-width: 800px; 
+  padding: 10px 50px; 
+  margin: auto; 
+  display: block;
 }
 
  
